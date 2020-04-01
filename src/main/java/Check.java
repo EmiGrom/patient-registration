@@ -13,7 +13,7 @@ public class Check {
         boolean isPatientRegistered = false;
 
         for (Patient patient : patientList) {
-            if (patient.getName().equals(name)&& patient.getSurname().equals(surname)) {
+            if (patient.getName().equals(name) && patient.getSurname().equals(surname)) {
                 isPatientRegistered = Boolean.TRUE;
             }
         }

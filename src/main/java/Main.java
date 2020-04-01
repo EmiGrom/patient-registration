@@ -50,9 +50,9 @@ public class Main {
             System.out.println("Unable to register");
 
         } else {
-            writePatientsData.createFile(patientList);
             patientList.add(patient5);
             System.out.println(patientList);
+            writePatientsData.createFile(patientList);
         }
     }
 }
