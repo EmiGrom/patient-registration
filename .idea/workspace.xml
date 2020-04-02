@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf8698a1-a25a-4494-8ce5-0eb1b8698adf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PatientAlreadyExist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Check.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadPatientData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadPatientData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WritePatientsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WritePatientsData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Patients.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Patients.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Patients.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Patients.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReadPatientData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReadPatientData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WritePatientsData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WritePatientsData.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WritePatientsData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="714">
               <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,8 +43,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Check.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+            <state relative-caret-position="238">
+              <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+            <state relative-caret-position="238">
+              <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CheckingAccountBalance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="25" />
+            <state relative-caret-position="272">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#311#312#0" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
@@ -151,15 +142,15 @@
         <option value="$PROJECT_DIR$/src/main/java/ExampleData.java" />
         <option value="$PROJECT_DIR$/src/main/java/Register.java" />
         <option value="$PROJECT_DIR$/src/main/java/NotEnoughMoney.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CheckingAccountBalance.java" />
         <option value="$PROJECT_DIR$/src/main/java/Check.java" />
         <option value="$PROJECT_DIR$/src/main/java/Patient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReadPatientData.java" />
         <option value="$PROJECT_DIR$/src/main/java/WritePatientsData.java" />
         <option value="$PROJECT_DIR$/src/main/java/PatientAlreadyExist.java" />
         <option value="$PROJECT_DIR$/src/main/java/CoronavirusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CheckingAccountBalance.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -216,8 +207,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585828231679" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../registration Kuby2" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585834113159" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../registerApp" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585822607539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="additional functionalities">
+      <created>1585828295091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585828295091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -325,7 +323,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22860238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22860238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +340,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32719395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,7 +354,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add a new patient record to the excel" />
     <MESSAGE value="additional functionalities (bank account status, registration)" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional functionalities (bank account status, registration)" />
+    <MESSAGE value="additional functionalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional functionalities" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Register.java" />
@@ -374,23 +373,6 @@
           <folding>
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WritePatientsData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,34 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="73" lean-forward="true" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PatientAlreadyExist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CheckingAccountBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="25" />
-          <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CoronavirusTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -456,10 +410,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WritePatientsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CheckingAccountBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PatientAlreadyExist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+        <state relative-caret-position="238">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

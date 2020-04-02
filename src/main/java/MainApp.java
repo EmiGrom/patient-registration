@@ -14,7 +14,7 @@ public class MainApp {
         patientList = readPatientData.getPatientList();
         check = new Check(patientList);
         scan = new Scanner(System.in);
-        System.out.println("Choose an action: \n0 - Finish the action \n1 - Check patient's registration status \n2 - Register the patient \n3 - Check your bank acount status \n4 - Removing patients");
+        System.out.println("Choose an action: \n0 - Finish the action \n1 - Check patient's registration status \n2 - Register the patient \n3 - Check your bank acount status for coronavirus testing \n4 - Removing patients");
         Integer action = scan.nextInt();
         chooseTypeSearching(action);
     }
