@@ -10,9 +10,8 @@ import java.util.List;
 public class WritePatientsData {
     private static final String FILE_NAME = "src/main/resources/Patients.xlsx";
 
-    public void createFile(List<Patient> patientList) {
-        System.out.println("Creating list of patients");
-
+    public void createFile(List<Patient>  patientList) {
+        System.out.println("Creating excel");
 
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet("Patients");
@@ -25,7 +24,8 @@ public class WritePatientsData {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("List created");
+
+        System.out.println("Finish");
     }
 
     private void creatingDataExcel(XSSFSheet sheet, List<Patient> patientList) {
@@ -33,17 +33,12 @@ public class WritePatientsData {
         Row row = sheet.createRow(rowNum++);
         row.createCell(0).setCellValue("Imię");
         row.createCell(1).setCellValue("Nazwisko");
-        row.createCell(2).setCellValue("PESEL");
-
+        row.createCell(2).setCellValue("Pesel");
         for (Patient patient : patientList) {
             row = sheet.createRow(rowNum++);
             row.createCell(0).setCellValue(patient.getName());
             row.createCell(1).setCellValue(patient.getSurname());
             row.createCell(2).setCellValue(patient.getPesel());
         }
-
     }
 }
-
-
-
