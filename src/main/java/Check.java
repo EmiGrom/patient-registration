@@ -31,4 +31,27 @@ public class Check {
         return isPatientRegistered;
     }
 
+    public Patient findPatient(String pesel) {
+        Patient patientTemp = null;
+
+        for (Patient patient : patientList) {
+            if (patient.getPesel().equals(pesel)) {
+                patientTemp = patient;
+            }
+        }
+
+        return patientTemp;
+    }
+
+    public Patient findPatient(String name, String surname) {
+        Patient patientTemp = null;
+
+        for (Patient patient : patientList) {
+            if (patient.getName().equals(name) && patient.getSurname().equals(surname)) {
+                patientTemp = patient;
+            }
+        }
+        return patientTemp;
+    }
+
 }

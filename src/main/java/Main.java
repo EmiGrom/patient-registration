@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
         List<Patient> patientList = new ArrayList<>();
-        patientList.add(new Patient("Adam", "Kowalski", "6565646"));
-        patientList.add(new Patient("Piotr", "Piotrowski", "5435663"));
-        patientList.add(new Patient("Ewa", "Ewacka", "534646564"));
+        patientList.add(new Patient("Adam", "Kowalski", "6565646", 400));
+        patientList.add(new Patient("Piotr", "Piotrowski", "5435663", 800));
+        patientList.add(new Patient("Ewa", "Ewacka", "534646564", 4000));
 
         WritePatientsData apachePOIExcelWrite = new WritePatientsData();
 
@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("\n");
 
-        Patient patient = new Patient("Justyna", "Justynowska", "465633636");
+        Patient patient = new Patient("Justyna", "Justynowska", "465633636", 800);
         System.out.println(check.isPatientRegistered("Justyna", "Justynowska"));
 
         patientList.add(patient);
