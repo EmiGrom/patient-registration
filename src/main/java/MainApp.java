@@ -1,4 +1,7 @@
+
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class MainApp {
@@ -14,7 +17,7 @@ public class MainApp {
         patientList = readPatientData.getPatientList();
         check = new Check(patientList);
         scan = new Scanner(System.in);
-        System.out.println("Choose an action: \n0 - Finish the action \n1 - Check patient's registration status \n2 - Register the patient \n3 - Check your bank acount status for coronavirus testing \n4 - Removing patients");
+        System.out.println("Choose an action: \n0 - Finish the action \n1 - Check patient's registration status \n2 - Register the patient \n3 - Zrób wszystkim badanie na koronowirusa  \n4 - Removing patients");
         Integer action = scan.nextInt();
         chooseTypeSearching(action);
     }
@@ -34,7 +37,7 @@ public class MainApp {
                 }
                 break;
             case 3:
-                checkingAccountBalance();
+                badankonaskierowanko();
                 break;
             case 4:
                 removePatient();
@@ -79,22 +82,31 @@ public class MainApp {
         return patientTemp;
     }
 
-        private static void checkingAccountBalance () {
-            CheckingAccountBalance checkingAccountBalance = new CheckingAccountBalance(new Patient("Jan", "Nowak", "5453544", 500));
-            System.out.println("How much money do you have?");
-            double money = scan.nextInt();
-            checkingAccountBalance.wallet(money);
-            System.out.println(checkingAccountBalance.getAmountOfMoney());
+    private static void badankonaskierowanko(){
 
-            try {
-                checkingAccountBalance.retraction(1000);
+        System.out.println("podaj cene badania: ");
+        Double kwota = scan.nextDouble();
+        for (Patient patient:patientList){
+            if (patient.getPrice()<=kwota){
 
-            } catch (Exception e) {
-                System.out.println("You don't have money for coronavirus test");
+                System.out.println("Pacjent: " + patient+ "Nie uzyskał badań, pieniądze nie zostały pobrane" );
+
             }
-        }
+            else {
 
-        private static void registerPatient() throws PatientAlreadyExist {
+                double temp = patient.getPrice();
+                patient.setPrice(temp - kwota);
+
+               Random rand = new Random();
+               Boolean value =rand.nextBoolean();
+
+                if(value==true){patient.setKoronowirus("pozytywny");}
+                else{patient.setKoronowirus("negatywny");}
+
+                System.out.println("gratuluje: " + patient+" zrobiłęś badania! Test");
+
+            } } }
+    private static void registerPatient() throws PatientAlreadyExist {
             WritePatientsData writePatientsData = new WritePatientsData();
             writePatientsData.createFile(patientList);
             Check check = new Check(patientList);
@@ -112,13 +124,12 @@ public class MainApp {
                 throw new PatientAlreadyExist();
             }
 
-            Patient newPatient = new Patient(firstName, lastName, pesel, price);
+            Patient newPatient = new Patient(firstName, lastName, pesel, price,null);
             patientList.add(newPatient);
             writePatientsData.createFile(patientList);
             System.out.println("Patient registered");
             System.out.println(patientList);
         }
-
         private static void isRegistered () {
             System.out.println("Check patient's registration status via: \n0 - Finish the action \n1 - name and surname \n2 - PESEL number");
             Integer action = scan.nextInt();
