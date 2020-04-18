@@ -9,5 +9,5 @@ public class Patient {
     private String surname;
     private String pesel;
     private double price;
-    private String koronowirus;
+    private String coronavirus;
 }

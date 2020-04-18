@@ -8,7 +8,7 @@ import java.util.List;
 
 
 public class WritePatientsData {
-    private static final String FILE_NAME = "src/main/resources/Patients.xlsx";
+    private static final String FILE_NAME = "F:\\kurs\\hospital App Emilka\\patient-registration\\src\\main\\resources\\Patients.xlsx";
 
     public void createFile(List<Patient>  patientList) {
         System.out.println("Creating excel");
@@ -42,7 +42,7 @@ public class WritePatientsData {
             row.createCell(1).setCellValue(patient.getSurname());
             row.createCell(2).setCellValue(patient.getPesel());
             row.createCell(3).setCellValue(patient.getPrice());
-            row.createCell(4).setCellValue(patient.getKoronowirus());
+            row.createCell(4).setCellValue(patient.getCoronavirus());
         }
     }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReadPatientData {
 
-    private static final String FILE_NAME = "src/main/resources/Patients.xlsx";
+    private static final String FILE_NAME = "F:\\kurs\\hospital App Emilka\\patient-registration\\src\\main\\resources\\Patients.xlsx";
 
     public List<Patient> getPatientList() {
         List<Patient> patientList = new ArrayList<>();
